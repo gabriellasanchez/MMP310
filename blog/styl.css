@@ -1,0 +1,21 @@
+body{
+    background-color:#DBF0F7;
+    font-family:Trebuchet MS;
+    line-height:30px;
+    letter-spacing:1px; 
+}
+
+h1, h2{
+    font-family:the unseen;
+    font-size:40px;
+    letter-spacing:8px;
+    text-align:center;
+}
+
+
+
+div {
+    text-align:center;
+    padding:50px;
+    
+}
