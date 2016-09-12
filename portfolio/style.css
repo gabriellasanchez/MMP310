@@ -1,0 +1,52 @@
+body{
+    background-image: url(imgs.jpg);
+    font-family:Trebuchet MS;
+    line-height:30px;
+    letter-spacing:1px;
+    color:aqua;
+    
+}
+
+h1, h2{
+    font-family:the unseen;
+    font-size:40px;
+    letter-spacing:8px;
+    text-align:center;
+}
+
+
+
+div {
+    text-align:center;
+    padding:50px;
+    
+}
+
+
+p { color:deepskyblue;}
+a { color: green:}
+a:hover { color:fuchsia;}
+a:link {color:white;}
+
+img { width:200px;}
+
+    
+ul {
+    list-style:none;
+    padding:1 px;
+    text-align:center;
+}
+ul li {
+    display:inline-block;
+    margin-right: 1em;
+    text-align:center;
+}
+ul li ul {
+    display:none;
+    text-align:center;
+}
+
+ul li:hover ul{
+    display:inline-block;
+    text-align:center;
+}
