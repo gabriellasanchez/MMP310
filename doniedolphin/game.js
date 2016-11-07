@@ -255,9 +255,9 @@ Second round of waves not needed
 wave2 = new createjs.Bitmap(loader.getResult("wave"));
 wave2.scaleX = -1
 wave2.rotation = 180
-wave2.x = wave.x //+ pipe.image.width
+wave2.x = wave.x //+ wave.image.width
 wave2.y = wave.y - gap
-createjs.Tween.get(pipe2).to({x:0 - pipe.image.width}, 5100)
+createjs.Tween.get(wave2).to({x:0 - wave.image.width}, 5100)
 
 waves.addChild(wave2);*/
 
